@@ -1,0 +1,23 @@
+{
+  "name": "crypto-address-encoder",
+  "version": "1.0.0",
+  "description": "Encodes an address from its pubkeyhash and prefix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Matthew Cornelisse",
+  "license": "MIT",
+  "dependencies": {
+    "base58check": "^2.0.0",
+    "bech32": "^1.1.4"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.11.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digiassetX/crypto-address-encoder"
+  }
+}
